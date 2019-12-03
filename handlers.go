@@ -8,8 +8,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/sarisia/aria-alexa-skip/models/alexa"
-	"github.com/sarisia/aria-alexa-skip/models/aria"
+	"github.com/aria-music/aria-alexa-skip/models/alexa"
+	"github.com/aria-music/aria-alexa-skip/models/aria"
 )
 
 func handleIntent(w http.ResponseWriter, r *alexa.RootRequest) {

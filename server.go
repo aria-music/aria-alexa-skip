@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/sarisia/aria-alexa-skip/models/alexa"
+	"github.com/aria-music/aria-alexa-skip/models/alexa"
 )
 
 func startServer() error {
